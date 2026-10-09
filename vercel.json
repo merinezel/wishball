@@ -1,0 +1,15 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Permissions-Policy", "value": "accelerometer=(self), gyroscope=(self), vibrate=(self)" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" }
+      ]
+    },
+    {
+      "source": "/sw.js",
+      "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+    }
+  ]
+}
