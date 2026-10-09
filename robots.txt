@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://merinezel.github.io/wishball/sitemap.xml

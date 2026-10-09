@@ -8,9 +8,32 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="canonical" href="https://merinezel.github.io/wishball/">
+<meta name="description" content="Aklından bir soru tut, telefonu salla, Kehanet Küresi cevap versin. Ücretsiz, kayıt yok, soruların kimseyle paylaşılmaz. Türkçe ve İngilizce.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="application-name" content="Kehanet Küresi">
+<meta name="apple-mobile-web-app-title" content="Kehanet Küresi">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kehanet Küresi">
+<meta property="og:title" content="Kehanet Küresi – Soru sor, salla, cevabını al">
+<meta property="og:description" content="Aklından bir soru tut, telefonu salla. Küre sana cevap versin.">
+<meta property="og:url" content="https://merinezel.github.io/wishball/">
+<meta property="og:image" content="https://merinezel.github.io/wishball/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kehanet Küresi – Soru sor, salla, cevabını al">
+<meta name="twitter:description" content="Aklından bir soru tut, telefonu salla. Küre sana cevap versin.">
+<meta name="twitter:image" content="https://merinezel.github.io/wishball/og-image.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Kehanet Küresi","alternateName":"Oracle Orb","url":"https://merinezel.github.io/wishball/","applicationCategory":"EntertainmentApplication","operatingSystem":"Any","inLanguage":["tr","en"],"description":"Aklından bir soru tut, telefonu salla, küre cevap versin.","offers":{"@type":"Offer","price":"0","priceCurrency":"TRY"}}</script>
 <!-- AdSense hesabı bağlanınca: <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXXXX"> -->
-<title>Kehanet Küresi</title>
+<title>Kehanet Küresi – Soru sor, salla, cevabını al</title>
 <style>
 :root{--o:min(74vw,44vh,340px);--bg:#020202;--ink:#F3EFE6;--dim:#99958C;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;margin:0}
@@ -110,6 +133,7 @@ h1{background:linear-gradient(180deg,#fff,#a9a595);-webkit-background-clip:text;
 .sheet li{display:flex;gap:14px;align-items:center;font-size:17px;line-height:1.35}
 .sheet li b{flex:none;width:34px;height:34px;border-radius:50%;background:var(--ink);color:#050505;display:grid;place-items:center;font-size:17px}
 .sheet svg{width:1.15em;height:1.15em;vertical-align:-.2em}
+.seo{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .pv{position:fixed;right:10px;bottom:calc(env(safe-area-inset-bottom,0px) + 2px);font-size:10px;color:#6f6c64;text-decoration:none;z-index:4}
 </style>
 </head>
@@ -239,6 +263,7 @@ sheet.addEventListener("click",function(e){if(e.target===sheet)sheet.classList.r
 applyLang();toIntro();
 })();
 </script>
+<div class="seo"><h1>Kehanet Küresi</h1><p>Aklından bir soru tut, telefonunu salla ve küre sana cevap versin. Evet, hayır ya da belki: 60 farklı cevap. Ücretsiz, kayıt gerektirmez, sorun hiçbir yere gönderilmez.</p><p>Hold a question in your mind, shake your phone and let the Oracle Orb answer. Free, no sign-up, your question never leaves your device.</p></div>
 <div class="sheet" id="sheet"><div class="box"><h2 id="sht"></h2><ol id="shs"></ol><button class="pri" id="shc"></button></div></div>
 <a class="pv" href="privacy.html">Gizlilik · Privacy</a>
 <script>if("serviceWorker"in navigator)addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})})</script>
